@@ -5,7 +5,7 @@ if __FILE__ == $0
     musicDirectory = "C:\\Users\\Christian\\Desktop\\LeagueMUSIC\\"
 
     #this can stay the same
-    leagueDirectory = "C:\\Riot Games\\League of Legends\\RADS\\projects\\lol_air_client\\releases\\0.0.1.164\\deploy\\assets\\sounds\\ambient"
+    leagueDirectory = "C:\\Riot Games\\League of Legends\\RADS\\projects\\lol_air_client\\releases\\0.0.1.165\\deploy\\assets\\sounds\\ambient"
 
     #Load the music files and move them
     musicArray = loadMusic(musicDirectory)
