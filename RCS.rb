@@ -5,6 +5,13 @@
 require 'pathname'
 require 'fileutils'
 
+#Extends String class to be able to check if a directory is a release directory
+class String
+  def isInteger? 
+	return self.to_i.to_s == self
+  end
+end
+
 #Loads music files from a given directory
 def loadMusic(directory)
 	fileArray = []  #declare an empty file array
@@ -48,6 +55,11 @@ end
 def redefineChampionSelect(originalDir, newDir, musicArray) 
 	if Dir.exist? originalDir and Dir.exist? newDir #make sure the directory exists
 		musicFiles = selectTwoTracks(musicArray) #randomly selects two music files
+		Dir.entries(newDir).each do |folderName|
+			if folderName[0].isInteger?
+				newDir += folderName + "\\" + "deploy\\assets\\sounds\\ambient\\"
+			end
+		end
 
 		FileUtils.cd(originalDir)
 
