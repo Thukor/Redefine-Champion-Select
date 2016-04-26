@@ -1,0 +1,6 @@
+{
+  "name": "Redefine Champion Select",
+  "tagline": "Do you hate the music that plays during champion select and would rather listen to your own tunes?  With this small application you can listen to your own music and enjoy selecting a champion!",
+  "body": "##_**Written completely in Ruby!**_\r\n## **Cross-Platform!** **-- Only have to update the program with the path to your Game Folder!**\r\n**##****Features:**\r\n* Specify a Specific Music Folder with which the program will work.\r\n* Define which queue modes you'd like to have the background selection music change for!\r\n* Specify a specific song, or just have the program randomly select from the array of tracks!\r\n\r\n##**Features to come:**\r\n* Update for new champion select, currently only works for Random Game Mode + ARAM\r\n* Enable Looping for songs that don't fit the required length\r\n* Create a pop-up displaying the current track being played\r\n* Enable real-time music selection (option to move to next track if current one is not favorable)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
